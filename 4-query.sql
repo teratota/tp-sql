@@ -1,0 +1,1 @@
+select firstname, lastname, `from` from student right join enrolment on student.id = enrolment.id_student order by lastname asc;
